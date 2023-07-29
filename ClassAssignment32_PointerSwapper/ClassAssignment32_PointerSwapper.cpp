@@ -25,7 +25,7 @@ int main()
     system("pause");
 }
 
-void badSwap(int x, int y) {
+void badSwap(int x, int y) {        //Deosnt change value because values stay in scope.
     int temp = x;
     x = y;
     y = temp;
